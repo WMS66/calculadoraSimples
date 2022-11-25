@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <script src="./scripts/script.js" defer></script>
+    <title>Projeto Calculadora Simples</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="hd">
+        <h1>Calculadora Simples</h1>
+        <br />
+        <h3>Desenvolvido em JavaScript, HTML e CSS</h3>
+      </div>
+    </header>
+
+    <div id="form">
+      <br />
+      <input type="number" id="n1" placeholder="Digite o primeiro número" />
+      <br /><br />
+      <select id="selector">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+      </select>
+      <br /><br />
+      <input
+        type="number"
+        id="n2"
+        placeholder="Digite o segundo número"
+      /><br />
+      <button onclick="calcular()">Calcular</button>
+    </div>
+    <div>
+      <h4 id="resultado"></h4>
+    </div>
+    <footer>
+      <p>Feito por Wanderley Cabral</p>
+    </footer>
+  </body>
+</html>
