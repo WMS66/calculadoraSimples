@@ -9,7 +9,7 @@ function calcular(n1, n2) {
       calculo = n1 + n2;
       document.getElementById(
         "resultado"
-      ).innerHTML = ` O resultado da soma de ${n1} + ${n2} é = ${calculo}`;
+      ).innerHTML = `  O resultado da soma de ${n1} + ${n2} é = ${calculo}`;
       break;
 
     case "-":
